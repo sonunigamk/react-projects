@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# Vite cache
+.vite/
+
+# Logs
+*.log
+
+# Environment Variables (specific to the React/Vite app)
+.env
+
+# React/Vite specific editor files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
