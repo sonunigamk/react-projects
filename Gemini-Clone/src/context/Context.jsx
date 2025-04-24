@@ -26,7 +26,7 @@ const ContextProvider = (props) => {
 
     const onSent = async (prompt) => {
         setResultData("");
-
+        setInput("");
         setLoading(true);
         setShowResult(true);
         let response;
@@ -39,7 +39,7 @@ const ContextProvider = (props) => {
             setRecentPrompt(input);
             response = await runGemini(input);
         }
-        setInput("");
+
         let responseArray = response.split("**");
         let newResponse = "";
 
