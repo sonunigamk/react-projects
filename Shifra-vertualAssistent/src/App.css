@@ -1,0 +1,73 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+    animation: fadeSlideIn 1s ease forwards;
+    opacity: 0;
+}
+
+@keyframes fadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#shifra{
+  height: 68%;
+}
+span{
+  color: white;
+  font-size: 2vmax;
+  font-weight: 600;
+  background: linear-gradient(to right, rgb(87, 166, 191),rgb(203, 110, 201));
+  background-clip: text;
+  color: transparent;
+}
+button{
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(137, 181, 220);
+  font-weight: 600;
+  box-shadow: 2px 2px 10px rgb(61, 119, 166);
+  cursor: pointer;
+}
+#speak-img{
+  width: 6rem;
+  /* width: 100px; */ 
+}
+
+p{
+  font-size: 1.4vmax;
+  color: white;
+  text-align: center;
+  padding: 0px 40px;
+}
+.bottom-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+#aigif{
+  width: 50vh;
+  height: 100px;
+}
